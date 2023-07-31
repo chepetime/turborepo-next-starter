@@ -11,8 +11,6 @@
   "explorer.sortOrder": "type",
   "files.trimFinalNewlines": true,
   "files.exclude": {
-    ".vscode": true,
-    ".github": true,
     ".gitignore": true,
     "pnpm-lock.yaml": true,
     "**/node_modules": true,
