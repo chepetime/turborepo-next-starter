@@ -1,0 +1,26 @@
+{
+  "name": "maintenance",
+  "version": "1.0.0",
+  "description": "Shell tool to keep node dependencies up to date",
+  "license": "MIT",
+  "author": {
+    "name": "José Manuel Gulias Lugo",
+    "email": "me@joselugo.dev",
+    "url": "https://github.com/chepetime"
+  },
+  "homepage": "https://github.com/chepetime/turborepo-next-starter/tree/main#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chepetime/turborepo-next-starter.git#main"
+  },
+  "bugs": {
+    "url": "https://github.com/chepetime/turborepo-next-starter/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "maintenance": "./bin/maintenance.sh"
+  },
+  "keywords": [
+    "maintenance"
+  ]
+}

@@ -1,15 +1,23 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "globalDependencies": ["**/.env.*local"],
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
+      "env": ["SOME_ENV_VAR"],
+      "outputs": [".next/**", "!.next/cache/**"]
+    },
+    "web#build": {
+      "dependsOn": ["^build"],
+      "env": ["SOME_OTHER_ENV_VAR"],
       "outputs": [".next/**", "!.next/cache/**"]
     },
     "lint": {},
+    "maintenance": {},
     "dev": {
       "cache": false,
       "persistent": true
     }
-  }
+  },
+  "globalEnv": ["GITHUB_TOKEN"],
+  "globalDependencies": ["**/.env.*local", "tsconfig.json"]
 }

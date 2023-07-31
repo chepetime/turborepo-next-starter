@@ -1,0 +1,45 @@
+{
+  "workbench.localHistory.exclude": {
+    "pnpm-lock.yaml": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/._*": true,
+    "**/.turbo/": true
+  },
+  "workbench.editor.highlightModifiedTabs": true,
+  "files.autoSave": "afterDelay",
+  "explorer.sortOrder": "type",
+  "files.trimFinalNewlines": true,
+  "files.exclude": {
+    ".vscode": true,
+    ".github": true,
+    ".gitignore": true,
+    "pnpm-lock.yaml": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/._*": true,
+    "**/.turbo/": true
+  },
+  "search.exclude": {
+    "pnpm-lock.yaml": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/._*": true,
+    "**/.turbo/": true,
+    ".vscode": true,
+    ".github": true,
+    ".gitignore": true
+  },
+  "workbench.editor.showTabs": true,
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.activityBar.visible": true,
+  "workbench.statusBar.visible": true,
+  "workbench.editor.enablePreview": false,
+  "javascript.format.enable": false,
+  "typescript.format.enable": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.suggest.completeFunctionCalls": true,
+  "typescript.suggest.paths": true,
+  "typescript.preferences.importModuleSpecifier": "non-relative"
+}
